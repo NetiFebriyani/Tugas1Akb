@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:id="@+id/splash_screen">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="750dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ss" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Neti Febriyani"
+        android:layout_marginTop="350dp"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="10119267"
+        android:layout_marginTop="365dp"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="IF7"
+        android:layout_marginTop="380dp"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="22/04/2022"
+        android:layout_marginTop="400dp"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>
